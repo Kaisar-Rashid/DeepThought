@@ -12,18 +12,18 @@ document.querySelector(".open-arrow").addEventListener("click", () => {
     bottomBar.classList.add("expanded");
 
     mainOne.innerHTML = `
-          <div class="features">
-            <ul>
-              <li class="first-list">Explore the world of management</li>
-              <div class="Remaining-list">
-                <li>Technical Project Management</li>
-                <li>Threadbuild</li>
-                <li>Structure your pointers</li>
-                <li>4SA Method</li>
-              </div>
-            </ul>
-            </div>
-          `;
+      <div class="features">
+        <ul>
+          <li class="first-list">Explore the world of management</li>
+          <div class="Remaining-list">
+            <li>Technical Project Management</li>
+            <li>Threadbuild</li>
+            <li>Structure your pointers</li>
+            <li>4SA Method</li>
+          </div>
+        </ul>
+      </div>
+    `;
     document.querySelector(".main-one").style.border = "none";
     image.src = "./images/crossOut.png";
     info.innerHTML = "Journey Board";
