@@ -25,7 +25,7 @@ document.querySelector(".open-arrow").addEventListener("click", () => {
             </div>
           `;
     document.querySelector(".main-one").style.border = "none";
-    image.src = "./images/crossout.png";
+    image.src = "./images/crossOut.png";
     info.innerHTML = "Journey Board";
   } else {
     topBar.classList.add("collapsed");
