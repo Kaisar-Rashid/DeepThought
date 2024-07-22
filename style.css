@@ -43,11 +43,13 @@
 }
 
 .notification-dot-red{
-    position: absolute;
+  position: absolute;
   height: 7px;
   background-color: #FF2C55;
   width: 7px;
   border-radius: 50%;
+  top: 5px;
+  left: 17px;
 }
 
 .side-dots div{
